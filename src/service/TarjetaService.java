@@ -26,4 +26,7 @@ public class TarjetaService {
     public TarjetaDebito getTarjetaDebitoById(int id){
         return tarjetaDebitoDAO.getTarjetaDebitoById(id);
     }
+    public List<TarjetaDebito> getAllTarjetasDebito(){
+        return tarjetaDebitoDAO.getAllTarjetasDebito();
+    }
 }
